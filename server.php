@@ -1,3 +1,8 @@
+## Connecting to the Database
+
+To connect to your database using PHP, you can use the following code:
+
+```php
 <?php
 $host = 'sql6.freesqldatabase.com';  // MySQL server hostname
 $username = 'sql6638506';            // MySQL username
@@ -12,3 +17,4 @@ if (!$conn) {
     die('Could not connect to MySQL: ' . mysqli_connect_error());
 } 
 ?>
+
